@@ -1,0 +1,7 @@
+ultralytics==8.4.49
+opencv-python==4.13.0.92
+torch==2.11.0
+torchvision==0.26.0
+rapidocr-onnxruntime==1.2.3
+onnxruntime==1.26.0
+numpy==2.4.4
