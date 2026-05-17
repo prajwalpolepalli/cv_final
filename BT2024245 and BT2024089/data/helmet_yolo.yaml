@@ -1,0 +1,4 @@
+train: data/helmet_yolo/train/images
+val: data/helmet_yolo/valid/images
+nc: 3
+names: ['faceWithNoHelmet', 'faceWithGoodHelmet', 'faceWithBadHelmet']

@@ -1,0 +1,4 @@
+train: data/plate_yolo/train/images
+val: data/plate_yolo/valid/images
+nc: 1
+names: ['numberPlate']

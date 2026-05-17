@@ -1,5 +1,0 @@
-﻿path: c:/Users/polep/Desktop/cv_final/BT2024245/data
-train: plate_yolo/train/images
-val: plate_yolo/valid/images
-nc: 1
-names: ['plate']
