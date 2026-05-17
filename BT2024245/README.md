@@ -2,7 +2,7 @@ Traffic Rule Violation Detection (AID 728)
 
 Project contents
 - solution.py: TrafficViolationDetector implementation
-- models/: pretrained weights (yolov8n + RapidOCR ONNX)
+- models/: yolov8n + custom helmet/plate YOLO weights + RapidOCR ONNX
 - requirements.txt: Python dependencies
 
 Setup
@@ -31,8 +31,8 @@ Output format
 Pipeline summary
 1) YOLOv8n detects persons and motorcycles.
 2) Riders are associated to motorcycles by overlap and position.
-3) Helmet violations are estimated from face visibility in the head region.
-4) License plates are localized with contour heuristics and recognized using RapidOCR.
+3) Helmet violations are detected with the custom helmet YOLO model.
+4) License plates are detected with the custom plate YOLO model and recognized using RapidOCR.
 
 Datasets (recommended for analysis/extension)
 - Helmet: Safety Helmet Wearing Dataset (SHWD)
